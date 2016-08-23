@@ -29,10 +29,16 @@ public class Cube : MonoBehaviour {
 			Gizmos.DrawSphere (nodePoints[i],0.5f);
 		}
 		
+		
+
+	}
+	
+	void OnDrawGizmosSelected(){
 		Gizmos.color = new Color(0.0F, 0.0F, 0.5F, 0.2F);
 		Gizmos.DrawLine(transform.position,nodePoints[0]);
 		for(int i=0; i < nodePoints.Length-1;i++){
 			Gizmos.DrawLine(nodePoints[i],nodePoints[i+1]);
 		}
+		
 	}
 }

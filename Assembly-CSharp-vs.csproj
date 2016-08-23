@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4B21C0D3-BD54-DC84-4EE1-5943F142AE73}</ProjectGuid>
+	<ProjectGuid>{03678AF9-0F42-3621-FB50-B97D41F7877B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -44,7 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cube.cs" />
+     <Compile Include="Assets\BallController.cs" />
+     <Compile Include="Assets\Scripts\Cube.cs" />
+     <Compile Include="Assets\Scripts\Hitpoint.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

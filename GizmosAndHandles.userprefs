@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\BallControllerEditor.cs">
+    <Files>
+      <File FileName="Assets\Editor\CubeEditor.cs" Line="36" Column="24" />
+      <File FileName="Assets\Editor\BallControllerEditor.cs" Line="36" Column="19" />
+      <File FileName="Assets\BallController.cs" Line="4" Column="1" />
+      <File FileName="Assets\Scripts\Cube.cs" Line="37" Column="3" />
+      <File FileName="Assets\Editor\HitpointEditor.cs" Line="25" Column="74" />
+      <File FileName="Assets\Scripts\Hitpoint.cs" Line="24" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
